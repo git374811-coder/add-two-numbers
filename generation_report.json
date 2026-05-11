@@ -1,0 +1,34 @@
+{
+  "project_name": "add-two-numbers",
+  "project_directory": "workspace\\add-two-numbers",
+  "generated_at": "2026-05-11T17:33:17.341013",
+  "total_files_written": 3,
+  "total_files_failed": 0,
+  "files": [
+    {
+      "filename": "add-two-numbers/CMakeLists.txt",
+      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\CMakeLists.txt",
+      "size_bytes": 96,
+      "line_count": 6,
+      "status": "success",
+      "written_at": "2026-05-11T17:33:17.315760"
+    },
+    {
+      "filename": "add-two-numbers/requirements.txt",
+      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\requirements.txt",
+      "size_bytes": 49,
+      "line_count": 3,
+      "status": "success",
+      "written_at": "2026-05-11T17:33:17.329483"
+    },
+    {
+      "filename": "add-two-numbers/README.md",
+      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\README.md",
+      "size_bytes": 362,
+      "line_count": 15,
+      "status": "success",
+      "written_at": "2026-05-11T17:33:17.339155"
+    }
+  ],
+  "failures": []
+}
