@@ -2,68 +2,86 @@
   "original_goal": "write a c program to add two numbers",
   "plan": {
     "project_name": "add-two-numbers",
-    "description": "A simple C program that adds two numbers",
+    "description": "A C program that adds two numbers and prints the result.",
     "tech_stack": [
-      "c",
-      "make"
+      "C",
+      "Makefile"
     ],
     "folder_structure": {
       "root": "add-two-numbers/",
-      "folders": [
-        "src"
-      ],
+      "folders": [],
       "files": [
-        "add-two-numbers/CMakeLists.txt",
-        "add-two-numbers/src/add_two_numbers.c",
-        "add-two-numbers/requirements.txt",
-        "add-two-numbers/README.md"
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "requirements.txt"
+        },
+        {
+          "path": "Makefile"
+        },
+        {
+          "path": "add_two_numbers.c"
+        }
       ]
     },
     "steps": [
       {
         "step_number": 1,
-        "title": "Setup Build System",
-        "description": "Create a CMake build system for the project",
+        "title": "Set up project structure",
+        "description": "Create the necessary folders and files for the project.",
         "files_to_create": [
-          "add-two-numbers/CMakeLists.txt"
+          "README.md",
+          "requirements.txt"
         ],
-        "dependencies": [
-          "cmake"
-        ],
-        "code_hint": "Write CMake code to define the project"
+        "dependencies": [],
+        "code_hint": ""
       },
       {
         "step_number": 2,
-        "title": "Define Add Function",
-        "description": "Implement a function in C to add two numbers",
+        "title": "Define dependencies",
+        "description": "Specify the required libraries or tools for the project.",
         "files_to_create": [
-          "add-two-numbers/src/add_two_numbers.c"
+          "requirements.txt"
         ],
-        "dependencies": [],
-        "code_hint": "Write C code for the add function"
+        "dependencies": [
+          "gcc",
+          "make"
+        ],
+        "code_hint": ""
       },
       {
         "step_number": 3,
-        "title": "Create Requirements File",
-        "description": "Specify dependencies required by the project",
+        "title": "Create Makefile",
+        "description": "Write a simple Makefile to compile and run the program.",
         "files_to_create": [
-          "add-two-numbers/requirements.txt"
+          "Makefile"
         ],
         "dependencies": [],
-        "code_hint": "List required packages and versions"
+        "code_hint": ""
       },
       {
         "step_number": 4,
-        "title": "Write README File",
-        "description": "Document the project with a README file",
+        "title": "Implement program logic",
+        "description": "Write the C code for the program, including functions for input, calculation, and output.",
         "files_to_create": [
-          "add-two-numbers/README.md"
+          "add_two_numbers.c"
         ],
         "dependencies": [],
-        "code_hint": "Write a brief description of the project"
+        "code_hint": ""
+      },
+      {
+        "step_number": 5,
+        "title": "Document project",
+        "description": "Write a README.md file to describe the project's purpose, usage, and limitations.",
+        "files_to_create": [
+          "README.md"
+        ],
+        "dependencies": [],
+        "code_hint": ""
       }
     ],
-    "total_steps": 4,
+    "total_steps": 5,
     "estimated_complexity": "simple"
   }
 }

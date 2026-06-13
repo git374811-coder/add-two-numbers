@@ -1,33 +1,49 @@
 {
   "project_name": "add-two-numbers",
   "project_directory": "workspace\\add-two-numbers",
-  "generated_at": "2026-05-11T17:33:17.341013",
-  "total_files_written": 3,
+  "generated_at": "2026-06-13T20:48:38.006624",
+  "total_files_written": 5,
   "total_files_failed": 0,
   "files": [
     {
-      "filename": "add-two-numbers/CMakeLists.txt",
-      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\CMakeLists.txt",
-      "size_bytes": 96,
-      "line_count": 6,
+      "filename": "README.md",
+      "full_path": "workspace\\add-two-numbers\\README.md",
+      "size_bytes": 45,
+      "line_count": 2,
       "status": "success",
-      "written_at": "2026-05-11T17:33:17.315760"
+      "written_at": "2026-06-13T20:48:37.991321"
     },
     {
-      "filename": "add-two-numbers/requirements.txt",
-      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\requirements.txt",
-      "size_bytes": 49,
+      "filename": "requirements.txt",
+      "full_path": "workspace\\add-two-numbers\\requirements.txt",
+      "size_bytes": 0,
+      "line_count": 1,
+      "status": "success",
+      "written_at": "2026-06-13T20:48:37.994241"
+    },
+    {
+      "filename": "requirements.txt",
+      "full_path": "workspace\\add-two-numbers\\requirements.txt",
+      "size_bytes": 20,
       "line_count": 3,
       "status": "success",
-      "written_at": "2026-05-11T17:33:17.329483"
+      "written_at": "2026-06-13T20:48:37.997952"
     },
     {
-      "filename": "add-two-numbers/README.md",
-      "full_path": "workspace\\add-two-numbers\\add-two-numbers\\README.md",
-      "size_bytes": 362,
-      "line_count": 15,
+      "filename": "Makefile",
+      "full_path": "workspace\\add-two-numbers\\Makefile",
+      "size_bytes": 71,
+      "line_count": 6,
       "status": "success",
-      "written_at": "2026-05-11T17:33:17.339155"
+      "written_at": "2026-06-13T20:48:38.001970"
+    },
+    {
+      "filename": "README.md",
+      "full_path": "workspace\\add-two-numbers\\README.md",
+      "size_bytes": 275,
+      "line_count": 14,
+      "status": "success",
+      "written_at": "2026-06-13T20:48:38.006174"
     }
   ],
   "failures": []
